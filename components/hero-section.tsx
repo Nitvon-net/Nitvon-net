@@ -33,8 +33,8 @@ export function HeroSection() {
 
           {/* Description */}
           <p className="text-lg sm:text-xl text-muted-foreground text-pretty mb-8 max-w-2xl mx-auto">
-            Join the revolution with $NIT - a decentralized token that empowers communities through fast, low-cost
-            transactions on the Solana blockchain.
+            Nitvon represents the power of community. Built on the Solana blockchain, $NIT offers fast, low-cost
+            transactions within a decentralized, community-driven ecosystem designed for collective growth.
           </p>
 
           {/* Feature Pills */}
@@ -69,7 +69,7 @@ export function HeroSection() {
           {/* Token Info */}
           <div className="mt-12 p-6 bg-card/50 backdrop-blur rounded-2xl border max-w-md mx-auto">
             <div className="flex items-center justify-center space-x-4 mb-4">
-              <Image src="/logo.png" alt="Nitvon Logo" width={48} height={48} className="rounded-full" />
+              <Image src="/logo-yellow.png" alt="Nitvon Logo" width={48} height={48} className="rounded-full" />
               <div className="text-left">
                 <h3 className="text-xl font-bold">$NIT Token</h3>
                 <p className="text-muted-foreground">Solana Blockchain</p>

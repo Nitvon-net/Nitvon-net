@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Zap, Globe, TrendingUp, Users, Shield, Coins } from "lucide-react"
@@ -50,6 +51,61 @@ export function AboutSection() {
             Nitvon represents the power of community. Built on the Solana blockchain, $NIT offers fast, low-cost
             transactions within a decentralized, community-driven ecosystem designed for collective growth.
           </p>
+        </div>
+
+        <div className="mb-20">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+              <div className="relative h-48">
+                <Image
+                  src="/lifestyle-trading.png"
+                  alt="Trading from home lifestyle"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-3">Trade Anywhere</h3>
+                <p className="text-muted-foreground text-pretty">
+                  Experience the freedom of trading from the comfort of your home with Nitvon's fast transactions.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+              <div className="relative h-48">
+                <Image
+                  src="/lifestyle-office.png"
+                  alt="Professional office lifestyle"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-3">Professional Growth</h3>
+                <p className="text-muted-foreground text-pretty">
+                  Build your financial future with professional-grade tools and community support.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+              <div className="relative h-48">
+                <Image
+                  src="/lifestyle-cycling.png"
+                  alt="Active lifestyle cycling"
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-xl font-semibold mb-3">Active Community</h3>
+                <p className="text-muted-foreground text-pretty">
+                  Join an active community that's always moving forward, just like you.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

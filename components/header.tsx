@@ -23,7 +23,7 @@ export function Header() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
-            <Image src="/logo.png" alt="Nitvon Logo" width={40} height={40} className="rounded-full" />
+            <Image src="/logo-yellow.png" alt="Nitvon Logo" width={40} height={40} className="rounded-full" />
             <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground">Nitvon</span>
               <span className="text-sm text-primary font-semibold">$NIT</span>

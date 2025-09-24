@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -80,6 +81,34 @@ export function CommunitySection() {
             Be part of a vibrant, global community that's building the future of decentralized finance together.
             Connect, contribute, and grow with us.
           </p>
+        </div>
+
+        <div className="mb-16">
+          <div className="relative rounded-2xl overflow-hidden bg-gradient-to-r from-primary/10 to-secondary/10 p-8">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+              <div>
+                <h3 className="text-2xl font-bold mb-4">Stay Connected On-the-Go</h3>
+                <p className="text-muted-foreground mb-6">
+                  Whether you're cycling through the mountains or managing your portfolio from anywhere, the Nitvon
+                  community is always with you. Stay updated with real-time notifications and connect with fellow
+                  community members wherever life takes you.
+                </p>
+                <div className="flex flex-wrap gap-4">
+                  <Badge variant="secondary">Mobile-First</Badge>
+                  <Badge variant="secondary">Real-time Updates</Badge>
+                  <Badge variant="secondary">Global Access</Badge>
+                </div>
+              </div>
+              <div className="relative h-64 lg:h-80">
+                <Image
+                  src="/lifestyle-bike-phone.png"
+                  alt="Community member staying connected while cycling"
+                  fill
+                  className="object-cover rounded-lg"
+                />
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Community Features */}
